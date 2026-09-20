@@ -3,6 +3,7 @@ import fg from 'fast-glob';
 import path from 'path';
 import { buildGraph } from './graph.js';
 import { renderGraph } from './renderer.js';
+import { calculateStats, renderStats, Stats } from './stats.js';
 
 export function runAnalyzer(dir: string, entry?: string) {
   const rootDir = path.resolve(dir);
@@ -26,9 +27,14 @@ export function runAnalyzer(dir: string, entry?: string) {
 
   console.log(pc.gray(`Found ${entryPoints.length} entry points.\n`));
   
+  const totalStats: Stats = { serverNodes: 0, clientNodes: 0, boundaries: 0, total: 0 };
+
   for (const entryPath of entryPoints) {
     const graph = buildGraph(entryPath, rootDir);
     renderGraph(graph, rootDir);
+    calculateStats(graph, totalStats);
     console.log('\n');
   }
+
+  renderStats(totalStats);
 }
