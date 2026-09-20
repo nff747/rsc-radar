@@ -1,12 +1,12 @@
 import pc from 'picocolors';
-import { parseFile } from './parser.js';
-import { resolveImport } from './resolver.js';
 import fg from 'fast-glob';
 import path from 'path';
+import { buildGraph } from './graph.js';
+import { renderGraph } from './renderer.js';
 
 export function runAnalyzer(dir: string, entry?: string) {
   const rootDir = path.resolve(dir);
-  console.log(pc.blue(`Scanning root: ${rootDir}`));
+  console.log(pc.blue(`\nScanning root: ${rootDir}`));
 
   let entryPoints: string[] = [];
   if (entry) {
@@ -24,10 +24,11 @@ export function runAnalyzer(dir: string, entry?: string) {
     return;
   }
 
-  console.log(pc.gray(`Found ${entryPoints.length} entry points.`));
+  console.log(pc.gray(`Found ${entryPoints.length} entry points.\n`));
   
   for (const entryPath of entryPoints) {
-    const parsed = parseFile(entryPath);
-    console.log(`Parsed ${path.relative(rootDir, parsed.filePath)}: Client=${parsed.isClient}, Imports=${parsed.imports.length}`);
+    const graph = buildGraph(entryPath, rootDir);
+    renderGraph(graph, rootDir);
+    console.log('\n');
   }
 }
