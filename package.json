@@ -14,5 +14,17 @@
   "type": "module",
   "bin": {
     "rsc-radar": "./dist/cli.js"
+  },
+  "dependencies": {
+    "commander": "^15.0.0",
+    "fast-glob": "^3.3.3",
+    "picocolors": "^1.1.1",
+    "typescript": "^7.0.2"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.14",
+    "@types/node": "^26.6.2",
+    "tsup": "^8.5.1",
+    "vitest": "^5.0.1"
   }
 }
