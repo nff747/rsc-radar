@@ -1,0 +1,18 @@
+{
+  "name": "rsc-radar",
+  "version": "0.1.0",
+  "description": "Blazingly fast CLI to visualize React Server Component boundaries",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run",
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bin": {
+    "rsc-radar": "./dist/cli.js"
+  }
+}
