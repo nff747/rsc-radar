@@ -9,7 +9,7 @@
     "dev": "tsup --watch"
   },
   "keywords": [],
-  "author": "",
+  "author": "nff747 <https://github.com/nff747>",
   "license": "ISC",
   "type": "module",
   "bin": {
@@ -34,5 +34,11 @@
       "import": "./dist/index.js",
       "default": "./dist/index.js"
     }
+  },
+  "homepage": "https://github.com/nff747",
+  "funding": "https://github.com/nff747",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nff747/rsc-radar.git"
   }
 }
