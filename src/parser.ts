@@ -40,8 +40,11 @@ export function parseFile(filePath: string): ParsedFile {
 
   const imports = new Set<string>();
 
-  function walk(node: any) {
-    if (!node || typeof node !== 'object') return;
+  const stack = [ast];
+
+  while (stack.length > 0) {
+    const node = stack.pop();
+    if (!node || typeof node !== 'object') continue;
     
     if (node.type === 'ImportDeclaration') {
       imports.add(node.source.value);
@@ -62,14 +65,14 @@ export function parseFile(filePath: string): ParsedFile {
     
     for (const key in node) {
       if (Array.isArray(node[key])) {
-        node[key].forEach(walk);
+        for (let i = node[key].length - 1; i >= 0; i--) {
+          stack.push(node[key][i]);
+        }
       } else if (typeof node[key] === 'object') {
-        walk(node[key]);
+        stack.push(node[key]);
       }
     }
   }
-
-  walk(ast);
 
   return { filePath, isClient, imports: Array.from(imports) };
 }
