@@ -5,7 +5,7 @@ import { buildGraph } from './graph.js';
 import { renderGraph } from './renderer.js';
 import { calculateStats, renderStats, Stats } from './stats.js';
 
-export function runAnalyzer(dir: string, entry?: string) {
+export function runAnalyzer/* Main entry point */(dir: string, entry?: string) {
   const rootDir = path.resolve(dir);
   console.log(pc.blue(`\nScanning root: ${rootDir}`));
 
