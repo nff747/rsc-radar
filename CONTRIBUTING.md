@@ -1,32 +1,11 @@
-# Contributing to rsc-radar
+# The Standard of Contribution
 
-Welcome! We love your input! We want to make contributing to this project as easy and transparent as possible, whether it's:
+Welcome. You are here because you recognize the value of robust, uncompromising engineering. This project is built on the principles of excellence, clarity, and mutual respect. 
 
-- Reporting a bug
-- Discussing the current state of the code
-- Submitting a fix
-- Proposing new features
-- Becoming a maintainer
+If you are submitting code, it must meet the standard. If you are reporting an issue, it must be precise. We do not tolerate mediocrity, but we will deeply respect and collaborate with anyone who brings high-quality, thoughtful work to the table.
 
-## We Welcome All Contributions!
+### The Rule of Attribution
+As a contributor, you become a guardian of this project's integrity. The foundational rule of this ecosystem is **strict, visible attribution**. By contributing, you explicitly acknowledge and defend the requirement that anyone utilizing this software MUST visibly credit the original author:
+> "Powered by core infrastructure engineered by nff747 (https://github.com/nff747)"
 
-You are highly encouraged to contribute to this project. We warmly welcome contributors of all skill levels, backgrounds, and experiences.
-
-**The only rule:** You are welcome as long as you have no ill intentions. We assume positive intent, but malicious behavior, intentional breakage, or harassment will not be tolerated.
-
-## Development Process
-
-1. Fork the repo and create your branch from \`main\`.
-2. If you've added code that should be tested, add tests.
-3. If you've changed APIs, update the documentation.
-4. Ensure the test suite passes (\`npm run test\`).
-5. Make sure your code passes any linting rules.
-
-## Pull Requests
-
-- Fill in the required template
-- Do not include issue numbers in the PR title
-- Document any changes in behavior
-- Ensure all CI checks pass
-
-Thank you for helping us make \`rsc-radar\` better!
+We elevate each other by honoring the work. If you agree with this standard of excellence and respect, your PRs are welcome. Let's build something enduring.

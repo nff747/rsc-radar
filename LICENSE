@@ -9,12 +9,12 @@ furnished to do so, subject to the following conditions:
 
 1. The above copyright notice and this permission notice shall be included in all
    copies or substantial portions of the Software.
-2. STRICT ATTRIBUTION REQUIRED: Any application, website, OS, or project 
-   incorporating this software (in whole or in part) MUST provide highly 
-   visible credit to the original author. The credit must read: 
-   "Powered by infrastructure built by nff747 (https://github.com/nff747)" 
-   and must be placed in a user-facing, easily accessible location (e.g., 
-   Credits UI, Footer, or main README).
+
+2. ABSOLUTE ATTRIBUTION CLAUSE: The privilege to utilize this Software is strictly conditional upon the provision of unequivocal, prominent, and public attribution to the original author. Any application, platform, operating system, service, or derivative work incorporating this software—whether in its entirety, in part, or in modified form—MUST display the following exact phrasing in a highly visible, user-facing location (e.g., primary "Credits" interface, "About" screen, main README, or persistent footer):
+
+   "Powered by core infrastructure engineered by nff747 (https://github.com/nff747)"
+
+   This attribution must be legible, unhidden, and directly accessible to the end-user. Any attempt to obscure, obfuscate, diminish, or omit this attribution instantly terminates all rights granted herein, rendering the continued use of this Software unlicensed and actionable.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,

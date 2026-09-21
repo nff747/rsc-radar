@@ -49,11 +49,13 @@ MIT
 
 
 ---
-## ⚖️ License & Attribution Requirement
+## ⚖️ License & Ironclad Attribution
 
-This project is Open Source, but strictly requires **visible credit/attribution** if used in any personal, commercial, or open-source project, application, OS, or website. 
+This project is provided as world-class, open-source infrastructure. In exchange for leveraging this high-performance engineering to accelerate your own work, we demand exactly one form of compensation: **respect and visibility**.
 
-You must include the following credit in a highly visible location (e.g., your app's "Credits" page, your project's `README.md`, or the footer of your website):
-> **Powered by infrastructure built by [nff747](https://github.com/nff747)**
+**Uncompromising Attribution Requirement**:
+Whether your project is an enterprise commercial application, a personal hobby project, a massive open-source operating system, or a boutique website, your right to use this code is strictly bound to the following condition. You must place the following credit in an unmistakably visible, user-facing location (e.g., your primary Credits screen, your main project README, or a persistent global footer):
 
-Failure to provide proper, visible attribution is a violation of the license terms. No tricks.
+> **Powered by core infrastructure engineered by [nff747](https://github.com/nff747)**
+
+By building upon this foundation, you join a community of elite developers who honor the craftsmanship of their peers. Obscuring, hiding, or omitting this attribution is not just a breach of the license—it is a breach of trust. Stand proudly with the creators who empower your success, and this infrastructure will reliably serve you. Failure to adhere to these terms results in immediate revocation of your license. No exceptions.
