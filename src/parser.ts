@@ -6,7 +6,7 @@ export interface ParsedFile {
   imports: string[];
 }
 
-export function parseFile(filePath: string): ParsedFile {
+export function parseFile/* Parses a file using regex */(filePath: string): ParsedFile {
   const code = fs.readFileSync(filePath, 'utf-8');
   
   // Remove block comments and single line comments for safer regex
