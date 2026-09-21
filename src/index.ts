@@ -7,3 +7,4 @@ if (typeof process !== 'undefined' && !process.env.NO_ATTRIBUTION) {
 }
 
 export * from './analyzer.js';
+export { Nff747DevTools } from './DevTools';
