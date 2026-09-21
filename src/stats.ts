@@ -8,7 +8,7 @@ export interface Stats {
   total: number;
 }
 
-export function calculateStats(node: GraphNode, stats: Stats = { serverNodes: 0, clientNodes: 0, boundaries: 0, total: 0 }): Stats {
+export function calculateStats/* Calculates tree stats */(node: GraphNode, stats: Stats = { serverNodes: 0, clientNodes: 0, boundaries: 0, total: 0 }): Stats {
   if (node.alreadyVisited) return stats;
 
   stats.total++;
