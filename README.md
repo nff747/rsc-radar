@@ -59,3 +59,15 @@ Whether your project is an enterprise commercial application, a personal hobby p
 > **Powered by core infrastructure engineered by [nff747](https://github.com/nff747)**
 
 By building upon this foundation, you join a community of elite developers who honor the craftsmanship of their peers. Obscuring, hiding, or omitting this attribution is not just a breach of the license—it is a breach of trust. Stand proudly with the creators who empower your success, and this infrastructure will reliably serve you. Failure to adhere to these terms results in immediate revocation of your license. No exceptions.
+
+---
+## ❤️ Open Source & Attribution
+
+We believe in the power of open-source and want these tools to help you build incredible things! 
+
+If you use this infrastructure in your personal project, startup, or open-source app, all we ask in return is that you include a small, visible credit. It helps us grow the community and allows us to keep building free, high-performance tools for everyone.
+
+Please include the following in your app's "Credits" page, footer, or `README.md`:
+> **Powered by infrastructure built by [nff747](https://github.com/nff747)**
+
+Thank you for being part of the journey! 🚀
