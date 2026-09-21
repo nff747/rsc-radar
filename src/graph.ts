@@ -9,7 +9,7 @@ export interface GraphNode {
   alreadyVisited?: boolean;
 }
 
-export function buildGraph(entryPoint: string, rootDir: string): GraphNode {
+export function buildGraph/* Builds the dependency tree */(entryPoint: string, rootDir: string): GraphNode {
   const visited = new Set<string>();
 
   function walk(filePath: string, parentWasClient: boolean): GraphNode {
