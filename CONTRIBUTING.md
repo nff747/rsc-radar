@@ -1,7 +1,9 @@
-# 🌱 Welcome! We're so glad you're here.
+# Contributing
 
-Thank you so much for your interest in contributing! We believe that open source should be a deeply rewarding, mentally pleasing, and joyful experience. 
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-Whether you are fixing a typo, optimizing a complex WebGPU shader, or completely rewriting an API to be more intuitive, your work is valued here. Our goal is to create software that feels effortless to use and maintain. 
-
-We welcome everyone with open arms (provided there are no ill intentions). Dive in, have fun, and let's build something beautiful together!
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'feat: Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
