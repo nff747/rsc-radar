@@ -10,7 +10,7 @@
   },
   "keywords": [],
   "author": "nff747 <https://github.com/nff747>",
-  "license": "ISC",
+  "license": "MIT",
   "type": "module",
   "bin": {
     "rsc-radar": "./dist/cli.js"
