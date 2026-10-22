@@ -46,4 +46,4 @@ It uses an extremely fast regex-based AST scanner to detect `"use client"` direc
 
 ## 📄 License
 
-MIT © [nff747](https://github.com/nff747)
+Apache 2.0 © [nff747](https://github.com/nff747)
