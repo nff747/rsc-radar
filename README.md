@@ -1,5 +1,7 @@
 # rsc-radar 📡
 
+[![Lunar Paradox](https://img.shields.io/badge/Organization-Lunar_Paradox-0a0e1a?style=for-the-badge&logo=probot&logoColor=d7b886)](https://lunarparadox.com)
+
 > Blazingly fast CLI to visualize React Server Component boundaries and hunt down client-side cascades in Next.js apps.
 
 The React/Next.js ecosystem struggles with **Accidental Client-Side Cascades**. A developer imports a `"use client"` component too high up in the component tree, and suddenly the entire subtree becomes client-side rendered, bloating the JavaScript bundle and ruining performance.
@@ -47,3 +49,7 @@ It uses an extremely fast regex-based AST scanner to detect `"use client"` direc
 ## 📄 License
 
 Apache 2.0 © [nff747](https://github.com/nff747)
+
+---
+
+*A component of the [Lunar Paradox](https://lunarparadox.com) applied systems & graphics laboratory. Engineered by nff747.*
